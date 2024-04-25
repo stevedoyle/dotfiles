@@ -1,3 +1,6 @@
 # List all of the committers in a repo
 alias gwho='git log --pretty="%an %ae%n%cn %ce" | sort -u | uniq'
 alias ghwo=gwho
+
+# zellij
+alias za='zellij attach'
